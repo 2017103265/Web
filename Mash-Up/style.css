@@ -1,0 +1,76 @@
+/* style.css */
+
+body {
+	border-top: 5px solid #4cb2e5;
+	margin: 0;
+	font-family: arial;
+}
+
+#bungkus {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#menu {
+	float: left;
+	margin-top: 60px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+}
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+#menu ul li a {
+	color: #333333;
+	text-decoration: none;
+
+}
+#menu ul li a:hover{
+	border-bottom: 5px solid;
+}
+
+#Logo {
+	float: right;
+	margin-top: 20px;
+}
+
+#banner{
+	clear: both;
+	border-bottom: 2px solid black;
+	margin-bottom: 15px;
+}
+
+.box {
+	display: inline-block;
+	float: left;
+	width: 300px;
+}
+.box h3 {
+	padding-left: 85px;
+}
+
+input[type="text"]{
+	background: #EEEEEE;
+	border: none;
+	padding: 8px 16px;
+	box-shadow: 2px 2px 2px #333 inset;
+}
+
+input[type="submit"]{
+	background: url(gambar/tombol_bg.jpg);
+	border: none;
+	padding: 5px 5px;
+	float: right;
+	margin-bottom: 20px;
+}
+
+#footer {
+	border top: 1px solid grey;
+	clear:both;
+	text-align: center;
+}
+	
