@@ -1,0 +1,162 @@
+/* style.css */
+
+body {
+	background: url('img/bg1.jpg');
+	font-family: arial;
+	margin: 0;
+}
+
+#atas {
+	width:450px;
+	height:200px;
+	padding:10px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -220px
+}
+	
+
+#menu {
+	margin-top: 60px;
+}
+
+#menu h1{
+	color: white;
+	font-family: arial;
+	text-shadow: 2px 2px 5px white;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+}
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+#menu ul li a {
+	color: white;
+	text-decoration: none;
+
+}
+#menu ul li a:hover{
+	border-bottom: 5px solid;
+}
+
+#footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+    text-align:center;
+	color:#808080;}
+	
+#menu1 {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 75px;
+}
+#menu1 ul {
+	margin: 0;
+	padding: 0;
+}
+#menu1 ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+#menu1 ul li a {
+	color: white;
+	text-decoration: none;
+
+}
+#menu1 ul li a:hover{
+	border-bottom: 5px solid;
+}
+
+.box {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	margin-left: 100px;
+}
+.box h3 {
+	color: white;
+	padding-left: 85px;
+}
+
+.box h6 {
+	color: white;
+	text-align: center;
+}
+
+.box img{
+	width: 100px;
+	height: 100px;
+	margin-left: 77px;
+}
+
+p {
+	color: white;
+}
+
+#tengah2 {
+	padding-left: 523px;
+}
+
+#tengah2 h2{
+	color: white;
+}
+
+#tengah2 marquee {
+	height: 500px;
+}
+
+#tengah2 ul {
+	margin: 0;
+	padding: 0;
+}
+tengah2 ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px
+}
+
+#tengah2 marquee ul li {
+	color: white;
+	text-decoration: none;
+}
+.box1 {
+	display: block;
+	float: left;
+	width: 400px;
+	color: white;
+}
+
+.box1 img{
+	width: 60px;
+	height: 60px;
+}
+
+input[type="submit"] {
+    background: #7ED321;
+    color: #fff;
+    border: 5px solid #7ED321;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+	
+}
+
+input[type="text"]{
+    height: 21px;
+    font-size: 18px;
+    box-shadow: 2px 2px 2px #333 inset;
+    border: none;
+    padding: 8px 16px;
+    background: #fff;
+}
